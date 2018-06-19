@@ -1,0 +1,164 @@
+<!doctype html>
+<!-- HTML - The tag shows up at the beginning and end of an HTML document (known as the root element). It indicates that the webpage is written in HTML5, and all other page markup comes in between these beginning and ending tags. -->
+<html lang="en">
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     HEAD  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <!-- Head - The contains information that specific page, including the title tags, meta data, and links to scripts and style sheets -->
+  <head>
+    <!-- Required meta tags -->
+    <!-- Meta data spells out additional information about the page, including the page’s description, author, published date, keywords and other typically ‘hidden’ page information. -->
+    <meta charset="utf-8">
+    <!-- This tag allows the screen to adjust to different screen sizes like from mobile to computer, etc... -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- link - Can be used to a create relationships with external pages or documents, including style sheets -->
+    <!-- This stylesheet links to the bootstrap online data base so you can use their library to add precoded features -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.1/examples/sticky-footer-navbar/sticky-footer-navbar.css" rel="stylesheet">
+
+    <!-- The title tag is the title for that page, useful for both search engines (when they scan and index pages) and users (showing up up in a browser’s title bar) by explicitly stating the primary topic of each page. -->
+    <!-- Title page is what will display on the tab of the browser -->
+    <title>Your Site Title</title>
+
+    <!-- This icon link allows you to add an icon to the tab bar of the browser -->
+    <!-- Find an image online and add the URL to the href -->
+    <link rel="icon" href="">
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    HELPFUL WEBSITE LINKS  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- HTML- CHEAT SHEET - https://hostingfacts.com/wp-content/uploads/2016/06/hf-html-cheat-sheet.pdf -->
+    <!-- HTML Style - CHEAT SHEET - https://www.w3schools.com/html/html_styles.asp -->
+    <!-- Bootstrap - CHEAT SHEET - https://hackerthemes.com/bootstrap-cheatsheet/ -->
+    <!-- Paletton - Color Schemes - http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF -->
+    <!-- GitHub - Example Website - https://github.com/ojboba/website -->
+    <!-- ATOM - Text Editor - Download Link - https://atom.io/ -->
+    <!-- GitHub Desktop - Download Link - https://desktop.github.com/ -->
+  </head>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  BODY  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <!-- Body - Body tags include all content that will be shown to users, including everything they’ll see & read. -->
+  <body>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HEADER - NAVIGATION BAR  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <header>
+      <!-- NAV = Navgation bar which shows how to navigate to your other pages like home, blog, contact through links-->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <!-- This creates your home page text, clicking this will take you to the top with the hyper reference of # -->
+        <a class="navbar-brand" href="#">WEBSITE</a>
+        <!-- This button minimizes the menu items so that they become a button  -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- this is currently a flex box, change to ml-auto and it will make things go right -->
+          <ul class="navbar-nav ml-auto">
+          <!-- <ul class="nav justify-content-center"> -->
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ JUMBOTRON - INTRODUCTION  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="jumbotron">
+      <h1 class="display-3" style="text-align:center">Welcome To Your Blog Page</h1>
+      <h1 style="text-align:center">Your Name</h1>
+      <hr class="my-1">
+      <br>
+      <h6 class="lead" style="text-align:center">This is your website built using <b>HTML</b>, the front-end framework library <b>BootStrap</b>, the text editor <b>Atom</b>, and the hosting website <b>GitHub</b>.</h6>
+      <h6 class="lead" style="text-align:center">This website is completly free and can be easily taught to friends and family.</h6>
+    </div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ DAILY BLOG - Day 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="container">
+      <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h1>DAY 1</h1>
+            <h2 class="featurette-heading">Give your day a title</h2>
+            <p class="lead">Write down what you learn and did today</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="https://farm6.staticflickr.com/5112/6970631088_f8a396cc6a.jpg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          </div>
+        </div>
+    </div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ DAILY BLOG - Day 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="container">
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h1>Day 2</h1>
+          <h2 class="featurette-heading">Give your day a title</h2>
+          <p class="lead">Write down what you learn and did today</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto" src="https://farm6.staticflickr.com/5112/6970631088_f8a396cc6a.jpg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+    </div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ DAILY BLOG - Day 3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="container">
+      <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h1>DAY 3</h1>
+            <h2 class="featurette-heading">Give your day a title</h2>
+            <p class="lead">Write down what you learn and did today</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="https://farm6.staticflickr.com/5112/6970631088_f8a396cc6a.jpg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          </div>
+        </div>
+    </div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ DAILY BLOG - Day 4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="container">
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h1>Day 4</h1>
+          <h2 class="featurette-heading">Give your day a title</h2>
+          <p class="lead">Write down what you learn and did today</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto" src="https://farm6.staticflickr.com/5112/6970631088_f8a396cc6a.jpg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+    </div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ DAILY BLOG - Day 5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="container">
+      <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h1>DAY 5</h1>
+            <h2 class="featurette-heading">Give your day a title</h2>
+            <p class="lead">Write down what you learn and did today</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="https://farm6.staticflickr.com/5112/6970631088_f8a396cc6a.jpg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          </div>
+        </div>
+    </div>
+    <br>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER - ADDITOANL INFO  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+    </footer>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCRIPT - JAVASCRIPT LINKS  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- Script - This element includes all scripting information, or links to external scripts. You can also include this element in the body to dynamically generate content. -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
